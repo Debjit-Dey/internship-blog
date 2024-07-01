@@ -1,0 +1,155 @@
+html{
+    width: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: var(--bs-body-font-family);
+    font-size: var(--bs-body-font-size);
+    font-weight: var(--bs-body-font-weight);
+    line-height: var(--bs-body-line-height);
+    color: var(--bs-body-color);
+    text-align: var(--bs-body-text-align);
+    background-color: var(--bs-body-bg);
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+    z-index: 1;
+    overflow-x: hidden;
+}
+
+.header-container {
+    justify-content: center;
+    padding: 10px;
+    box-shadow: rgb(0, 0, 0, 0.12);
+    display: flex;
+}
+
+.header-img {
+    flex: 1;
+    overflow: hidden;
+    padding: 16px;
+    margin: 0px 26px;
+    
+}
+.custom-search{
+    border: none;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.custom-input-search{
+    border-top-left-radius: none;
+    border-bottom-left-radius: none;
+}
+.search-img {
+    border: none !important;
+    padding: none;
+}
+
+.header-img img {
+        overflow: clip;
+}
+
+.header-form {
+    flex: 1;
+}
+
+.header-form input {
+    background-color: #F2F2F2;
+}
+
+.header-button {
+    flex: 1;
+    color: #2e2e2e;
+    text-align: right;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.container1 {
+    background: url("https://eco-n-tech.com/wp-content/cache/thumb/ec/890ddcd1c2ce5ec_3806x1034.png") center center / cover no-repeat;
+    z-index: 1;
+    height: 480px;
+    width: 100%;
+    overflow: hidden;
+    
+}
+
+/* .container1 img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+} */
+
+.container {
+     --bs-gutter-x: 0rem !important;
+    }
+
+.container1-text {
+    margin-top: 325px;
+    margin-left: 50px;
+    font-size: 1.5rem;
+}
+
+.imagePost {
+    height: 220px;
+    border-radius: 4px 4px 0 0;
+    background-color: #c4c4c4;
+}
+
+.modal-content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    color: var(--bs-modal-color);
+    pointer-events: auto;
+    background-color: var(--bs-modal-bg);
+    background-clip: padding-box;
+    border: var(--bs-modal-border-width) solid var(--bs-modal-border-color);
+    border-radius: var(--bs-modal-border-radius);
+    outline: 0;
+}
+
+.create-account {
+    border: 1px solid black;
+    margin: auto;
+    border-radius: 20px;
+    background-color: rgba(226, 231, 231, 0.896);
+   
+}
+
+#create-form {
+    display: none;
+    z-index: 2;
+    background-color: white;
+}
+
+modal-header{
+padding: 20px;    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1051px){
+    .header-container{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 792px){
+    .cont3p{
+        margin-right: 10% !important;
+    }
+}
